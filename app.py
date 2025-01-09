@@ -303,4 +303,4 @@ with gr.Blocks() as demo:
 
 if __name__ == "__main__":
     demo.queue(max_size=15)
-    demo.launch()
+    demo.launch(share=True)
